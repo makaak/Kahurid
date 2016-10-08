@@ -376,7 +376,7 @@ public class GameScreen implements KeyListener{
 
 		public Player(boolean AI){
 			this.AI = AI;
-			this.m = new Myrsk("Myrsk.png", 50, 0.03f, 25);
+			this.m = new Myrsk("Media\\Myrsk.png", 50, 0.03f, 25);
 			active = false;
 			kiirus = 150;
 			inGame = true;

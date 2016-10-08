@@ -6,7 +6,7 @@ public class OptionsScreen {
  * if !settings file -> load default settings/ create settings file with default settings
  * load settings file
  * 
- * create interface for changing all variables in Variable class.
+ * create interface for changing all variables in Variables class.
  * save to settings file if settings != default settings
  */
 }

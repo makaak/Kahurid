@@ -50,16 +50,16 @@ public class MenuScreen implements KeyListener{
 		w.setFocusTraversalKeysEnabled(false);
 		w.addKeyListener(this);
 		
-		Image defPlay = new ImageIcon("defPlay.png").getImage();
-		Image hoverPlay = new ImageIcon("hoverPlay.png").getImage();
-		Image pressedPlay = new ImageIcon("pressedPlay.png").getImage();
-		Image defExit = new ImageIcon("defExit.png").getImage();
-		Image hoverExit = new ImageIcon("hoverExit.png").getImage();
-		Image pressedExit = new ImageIcon("pressedExit.png").getImage();
-		Image defProfile = new ImageIcon("defProfile.png").getImage();
-		Image hoverProfile = new ImageIcon("hoverProfile.png").getImage();
-		Image defOptions = new ImageIcon("defOpt.png").getImage();
-		Image hoverOptions = new ImageIcon("hoverOpt.png").getImage();
+		Image defPlay = new ImageIcon("Media\\defPlay.png").getImage();
+		Image hoverPlay = new ImageIcon("Media\\hoverPlay.png").getImage();
+		Image pressedPlay = new ImageIcon("Media\\pressedPlay.png").getImage();
+		Image defExit = new ImageIcon("Media\\defExit.png").getImage();
+		Image hoverExit = new ImageIcon("Media\\hoverExit.png").getImage();
+		Image pressedExit = new ImageIcon("Media\\pressedExit.png").getImage();
+		Image defProfile = new ImageIcon("Media\\defProfile.png").getImage();
+		Image hoverProfile = new ImageIcon("Media\\hoverProfile.png").getImage();
+		Image defOptions = new ImageIcon("Media\\defOpt.png").getImage();
+		Image hoverOptions = new ImageIcon("Media\\hoverOpt.png").getImage();
 
 		menus[0][0].addNupp(defPlay, hoverPlay, pressedPlay, 75, 100, true, "play");
 		//menus[0][0].addNupp(defProfile, hoverProfile, null, 75, 220);
